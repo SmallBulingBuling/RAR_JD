@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+.block8{
+	display: block;
+	position: relative;
+	margin-top: 20px;
+}
+.f_JDbottom{
+	display: block;
+	position: relative;
+}
+.JDbottom{
+	
+}
+.JDbottom_sum{
+	width: 100%;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dadada;
+}
+.JDbottom_sum_bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 1190px;
+	margin-bottom: 30px;
+}
+.JDbottom_sum_element{
+	display: flex;
+	width: 202px;
+	height: 44px;
+}
+.JDbottom_sum_img{
+	/*width: 180px;*/
+	width: 40px;
+	height: 44px;
+	background: url("../src/JD_buttom_img02.png") no-repeat;
+	background-size: auto 44px;
+	background-position: left;
+	
+}
+.JDbottom_sum_font{
+	margin: auto 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.JDbottom_other{
+	display: block;
+	position: relative;
+	width: 1190px;
+}
+.JDbottom_other_bar{
+	display: flex;
+	flex-direction: row;
+	width: 1190px;
+	justify-content: space-around;
+	border-bottom: 1px solid #dadada;
+
+}
+.JDbottom_other_element{
+
+}
+.JDbottom_other_elementlist{
+	margin-bottom: 10px;
+}
+.JDbottom_other_elementlist li{
+	list-style-type: none;
+	font-size: 13px;
+	color:#838383;
+}
+.JDbottom_other_elementlist li:first-child{
+	font-size: 15px;
+	font-weight: bold;
+	color:#474747;
+	margin-bottom: 8px; 
+}
+.JDbottom_other_info{
+	position: relative;
+	display: block;
+
+}
+
+.JDbottom_other_info1{
+
+}
+.JDbottom_info_bar li{
+	display: inline;
+	font-size: 12px;
+	color: #746b78;
+	padding: 0px 8px 0px 0px;
+	border-right: 1px solid gray;
+}
+.JDbottom_info_bar li:last-child{
+	border-right: none;
+}
+.JDbottom_other_info7 .JDbottom_info_bar li{
+	border: none;
+	margin: 0px 5px;
+}

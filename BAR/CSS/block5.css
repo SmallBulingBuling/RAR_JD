@@ -1,0 +1,476 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+rgba(225,37,27,1.00)
+*/
+.block5{
+	position: relative;
+	display: block;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.f_dailySale_brandSale{
+	position: relative;
+	display: block;
+}
+.dailySale_brandSale{
+	/*background-color: gray;*/
+	display: flex;
+	flex-direction: row;
+	width: 1190px;
+	height: 340px;
+	
+}
+.dailySale{
+	/*background-color: antiquewhite;*/
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 590px;
+	height:320px;
+	margin-right: 10px;
+	padding: 10px 10px 10px 10px;
+}
+.Sale_top{
+	display: flex;
+}
+.Sale_top_font{
+	display: flex;
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 5px;
+}
+.Sale_top_font i{
+	padding: 8px 0px 0px 10px;
+}
+.Sale_top_font:hover .iconfont{
+	color: rgba(225,37,27,1.00);
+}
+.Sale_top_list{
+	list-style-type: none;
+	margin-left: 180px;
+	padding-top: 3px;
+}
+.Sale_top_list li{
+	display: inline;
+	margin: 0px 10px;
+	padding: 0px 0px 3px 0px;
+	border-bottom: 1.5px solid white;
+	color: gray;
+	font-size: 14px;
+}
+.Sale_top_list li:hover{
+	color: rgba(225,37,27,1.00);
+	border-bottom: 1.5px solid rgba(225,37,27,1.00);
+}
+.brandSale{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 590px;
+	height: 320px;
+	padding: 10px 10px 10px 10px;
+}
+.Sale_goods_bar{
+	display: flex;
+}
+.Sale_goods{
+	display: flex;
+	flex-wrap: wrap;
+}
+.Sale_goodsR{
+	display: flex;
+	flex-wrap: wrap;
+}
+.Sale_goods:hover .Sale_goods_name {
+	color: rgba(225,37,27,1.00);
+	
+}
+.Sale_goods:hover .Sg_img_size01,.Sale_goods:hover .Sg_img_size02{
+	opacity:0.9;
+}
+.Sale_goods_size01{
+	width: 170px;
+	height: 265px;
+	background-color: rgba(248,248,249,1.00);
+	margin-top: 15px;
+	margin-left: 5px;
+	flex-direction: column;
+}
+.Sale_goods_size02{
+	flex-direction: row;
+	width: 170px;
+	height: 92px;
+	margin-top: 35px;
+	margin-left: 20px;
+	margin-right: 5px;
+	
+}
+.Sg_img_size01{
+	width: 120px;
+	height: 120px;
+	padding: 0px 25px;
+	margin-top: 46px;
+}
+.Sg_img_size02{
+	width: 84px;
+	height: 84px;
+	margin: 0px 5px 0px 0px;
+}
+.Sale_goods_info{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+.Sale_goods_name{
+	
+}
+.Sgn_size1{
+	font-size: 14px;
+}
+.Sgn_size2{
+	font-size: 12px;
+	width: 76px;
+	text-align: left;
+}
+.Sale_goods_price{
+	display: flex;
+	
+}
+.Sgp_size01{
+	flex-direction: row;
+	margin: 8px auto 0px auto;
+}
+.Sgp_size02{
+	flex-direction: column;
+}
+.Sale_goods_priceNow{
+	display: flex;
+	font-size: 12px;
+	color: rgba(225,37,27,1.00);
+}
+.Sgp_size01{
+	flex-direction: row;
+}
+.Sgp_size02{
+	flex-direction: column;
+}
+.SgpN_size1{
+	font-size: 18px;
+}
+.SgpN_size2{
+	font-size: 16px;
+}
+.Sale_goods_priceOld{
+	text-decoration: line-through;
+	font-size: 12px;
+}
+.SgpO_size01{
+	margin: 4px;
+}
+.SgpO_size02{
+	text-align: left;
+}
+/*------------------------*/
+.f_findgoods{
+	display: block;
+	position: relative;
+	margin-top: 30px;
+}
+.findgoods{
+	display: flex;
+	flex-direction: row;
+	width: 1190px;
+	height: 260px;
+}
+.findgoods_left{
+	width: 190px;
+	height: 260px;
+	background: url("../src/findgoodsBackground.png") no-repeat;
+	background-size: 190px 260px;
+}
+.findgoods_word{
+	width: 160px;
+	height: 90px;
+	background: url("../src/findgoods.png") no-repeat;
+	background-size: 160px 90px;
+	color: white;
+	padding-top: 55px;
+}
+.findgoods_left:hover .findgoods_word i{
+	color: rgba(200,22,35,1.00);
+}
+.findgoods_right{
+	margin-left: 10px;
+	width: 990px;
+	height: 260px;
+	background-color: white;
+}
+.findgoods_bar{
+	display: flex;
+	overflow: hidden;
+	height: 260px;
+}
+.findgoods_goods{
+	margin: 20px 10px 0px 10px;
+	width: 150px;
+	height: 150px;
+}
+.findgoods_img{
+	width: 150px;
+	height: 150px;
+}
+.findgoods_name{
+	color: gray;
+	font-size: 14px;
+	margin-top: 10px;
+}
+/*-----------------*/
+.f_Sale_other{
+	position: relative;
+	display: block;
+	margin-top: 30px;
+}
+.Sale_other{
+	display: flex;
+	flex-direction: row;
+	width: 1190px;
+}
+
+.Sale_other .Sale_other_fomat:nth-child(-n+3){
+	margin-right: 10px;
+}
+.Sale_other_fomat{
+	width: 290px;
+	height: 340px;
+	background-color: white;
+	padding: 12px 0px 10px 10px;
+}
+.Sale_other_fomato{
+	width: 290px;
+	height: 350px;
+	background-color: white;
+	padding: 12px 0px 0px 0px;
+}
+.Sale_start{
+	margin-top: 30px;
+}
+.Sale_start_goods{
+	
+}
+.Sale_start_img img{
+	width: 130px;
+	height: 130px;
+}
+.Sale_start_name{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.Sale_start_other{
+	font-size: 12px;
+	color: gray;
+	margin-top: 5px;
+}
+.Sale_start_price{
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	font-style: normal;
+	color: rgba(225,37,27,1.00);
+	margin-top: 10px;
+}
+.Sale_start_price i{
+	font-style: normal;
+	font-size: 12px;
+}
+.Sale_rankinglist{
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+}
+.Sale_rankinglist_labelBar{
+	display: flex;
+	
+	width: 270px;
+	margin-top: 8px;
+}
+.Sale_rankinglist_labelBar a{
+	border-radius: 10px;
+	background-color:rgba(246,246,246,1.00);
+	padding: 1px 0px;
+	color: gray;
+	font-size: 12px;
+	width: 60px;
+	height: 18px;
+	margin-right: 6px;
+}
+.Sale_rankinglist_toplist{
+	display: flex;
+	width: 260px;
+	height: 70px;
+	margin-top: 20px;
+}
+.Sale_rankinglist_topicon{
+	display: flex;
+	flex-direction: column;
+	width:28.8px;
+	height:40.8px;
+	background: url( "../src/Sale_ranking_toplist_iconImg1.png") no-repeat;
+	background-size: cover;
+	margin: auto 0px;
+}
+.Sale_rankinglist_topicon div:nth-child(1){
+	width: 28.8px;
+	color:rgba(174,174,174,0.5);
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.Sale_rankinglist_topicon div:nth-child(2){
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px auto;
+	
+}
+.Sale_ranking_topgoods{
+	display: flex;
+}
+.Sale_ranking_topimg{
+	width: 70px;
+	height: 70px;
+}
+.Sale_ranking_topgoods span{
+	font-size: 14px;
+	margin: auto 0px;
+}
+/*--------------------*/
+.Sale_other_shopStore{
+	
+}
+.Sale_shopStore_bar{
+	display: flex;
+	flex-direction: column;
+	width: 260px;
+	
+}
+.Sale_shopStore_format{
+	background:url("../src/Sale_shopStoreBackground.png") no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: row;
+	width: 255px;
+	height: 98px;
+	padding: 15px 0px 15px 0px;
+	margin-top: 20px;
+}
+.Sale_shopStore_left{
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+	text-align: left;
+	padding: 0px 0px 0px 15px;
+}
+.Sale_shopStore_name{
+	font-size: 14px;
+}
+.Sale_shopStore_label{
+	display: flex;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.ShopStore_label01{
+	width: auto;
+	border: 1px solid cornflowerblue;
+	border-radius: 2.5px;
+	padding: 1px 2px;
+	color: cornflowerblue;
+}
+.Sale_shopStore_focus{
+	font-size: 12px;
+	color: gray;
+	margin-top: 30px;
+}
+.Sale_shopStore_right{
+	margin-left: 20px;
+}
+.Sale_shopStore_img{
+	width: 90px;
+	height: 90px;
+}
+.Sale_other_ticket{
+	
+}
+.Sale_ticket{
+	
+}
+.Sale_ticket_bar{
+	display: flex;
+	flex-direction: column;
+	width: 290px;
+	height: 280px;
+	background: url("../src/ticketBackground.png") no-repeat;
+	background-size: contain;
+	margin-top: 37px;
+}
+.Sale_ticket_goods{
+	width: 260px;
+	height: 82px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.Sale_ticket_img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	padding: 8px;
+	background-color: white;
+	margin: auto 0px;
+}
+.Sale_ticket_img img{
+	width: 45px;
+	height: 45px;
+}
+.Sale_ticket_right{
+	width: 140px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-left: 10px;
+}
+.Sale_ticket_price{
+	color: rgba(227,51,51,1.00);
+}
+.Sale_ticket_price a:first-child{
+	font-size: 12px;
+}
+.Sale_ticket_price a:last-child{
+	font-size: 26px;
+	font-weight: bolder;
+}
+.Sale_ticket_priceRule1{
+	color: gray;
+	font-size: 12px;
+}
+.Sale_ticket_priceRule2{
+	font-size: 12px;
+	color: dimgray;
+	margin-top: 5px;
+}
+.Sale_ticket_more{
+	display: flex;
+	font-size: 12px;
+	color: darkgray;
+	width: 12px;
+	margin: auto 0px;
+}
+.Sale_ticket_more span:nth-child(2){
+	margin: auto 10px;
+}
+
+
+
+
